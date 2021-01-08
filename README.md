@@ -1,6 +1,8 @@
 # Shopify Image Repository
 Created for the Summer 2021 Shopify Developer Intern Challenge
 
+**NOTICE:** This project was developed using Python 3.9 in Windows 10. Although there is code specific to Mac OSX, it has **not** been tested. If running in Mac OSX, proceed with caution and see [Setup](#setup)
+
 ## Table of contents
 * [General Info](#general-info)
 	* [Supported Formats](#supported-formats)
