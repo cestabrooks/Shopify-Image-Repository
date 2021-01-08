@@ -14,7 +14,7 @@ This project is a simple image repository that allows users to upload, download,
 ### Supported Formats
 Currently, this project supports the following image formats: `.jpg`, `.jpeg`, `.png`, and `.gif`*.
 
-*Note: Any animated `.gif` file that is uploaded to the repository will only display a preview of the first frame. To view the entire animation in sequence, you can download the file and open it.
+**Note: Any animated `.gif` file that is uploaded to the repository will only display a preview of the first frame. To view the entire animation in sequence, you can download the file and open it elsewhere.*
 	
 ## Setup
 Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` file inside of it. When `main.py` is run, it will create numerous folders to organize data within its current working directory. Thus, it is important to place it in a brand new folder where it is free to run and create its own file system.
