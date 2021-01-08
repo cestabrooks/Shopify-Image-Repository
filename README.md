@@ -3,6 +3,7 @@ Created for the Summer 2021 Shopify Developer Intern Challenge
 
 ## Table of contents
 * [General Info](#general-info)
+	* [Supported Formats](#supported-formats)
 * [Setup](#setup)
 * [Running the Project](#running-the-project)
 * [Built With](#built-with)
@@ -10,7 +11,7 @@ Created for the Summer 2021 Shopify Developer Intern Challenge
 
 ## General Info
 This project is a simple image repository that allows users to upload, download, and delete images. Every user must create an account with a username and password. Once they are logged in, they can interact with photos in their personal private libaray or the global public libary (which everyone can access).
-
+### Supported Formats
 Currently, this project supports the following image formats: `.jpg`, `.jpeg`, `.png`, and `.gif`*.
 
 *Note: Any animated `.gif` file that is uploaded to the repository will only display a preview of the first frame. To view the entire animation in sequence, you can download the file and open it.
