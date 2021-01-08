@@ -16,6 +16,6 @@ This project was built with:
 	
 ## Setup
 To run this project, use the package manager [pip](https://pip.pypa.io/en/stable/) to install Pillow.
-'''bash
+```bash
 pip install pillow
-'''
+```
