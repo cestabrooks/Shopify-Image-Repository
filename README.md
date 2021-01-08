@@ -18,22 +18,19 @@ Currently, this project supports the following image formats: `.jpg`, `.jpeg`, `
 	
 	
 ## Setup
-Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` file inside of it.
-
-*When it is run, it will create numerous folders to organize user data within its current working directory. Thus, it is important to place the file in a brand new folder where it is free to create its own file system.*
+Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` inside of it. *When the application is run, it will create numerous folders to organize user data within its current working directory. Thus, it is important to place the file in a brand new folder where it is free to create its own file system.*
 
 
-`main.py` will attempt to automatically install the necessary libraries itself using the package manager [pip](https://pip.pypa.io/en/stable/). If errors are encoutered, you can attempt to manually install the required [Pillow](https://python-pillow.org/) library using the following command.
+When `main.py` is run, it will attempt to install the necessary libraries itself using the package manager [pip](https://pip.pypa.io/en/stable/). If errors are encoutered, you can try manually install the required [Pillow](https://python-pillow.org/) library with the following command.
 ```bash
 pip install pillow
 ```
 
 
 ## Running the Project
-Navigate to
-
+To run the project, navigate to the location where `main.py` is stored and run the following command.
 ```bash
-pytho
+python main.py
 ```
 
 
