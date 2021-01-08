@@ -883,10 +883,10 @@ class UserDatabase:
     def UploadPhotos(self, privOrPublic : AlbumView, username=None):   
         # Depdning on album type, open file selection window with custom title telling the user what to do
         if privOrPublic == AlbumView.PUBLIC:
-            fileDirectories = filedialog.askopenfilenames(initialdir="/", title = "Select image(s) to publicly upload...",filetypes = (("JPG files","*.jpg"),("JPEG files","*.jpeg"),("PNG files","*.png"), ("GIF files","*.gif")))
+            fileDirectories = filedialog.askopenfilenames(initialdir="/", title = "Select image(s) to publicly upload...", filetypes =[("Image files (.jpg, .jpeg, .png, and .gif)","*.jpg *.jpeg *.png *.gif")])
             self.OpenPhotoDir(AlbumView.PUBLIC)
         elif privOrPublic == AlbumView.PRIVATE:
-            fileDirectories = filedialog.askopenfilenames(initialdir="/", title = "Select image(s) to privately upload...",filetypes = (("JPG files","*.jpg"),("JPEG files","*.jpeg"),("PNG files","*.png"), ("GIF files","*.gif")))
+            fileDirectories = filedialog.askopenfilenames(initialdir="/", title = "Select image(s) to privately upload...", filetypes =[("Image files (.jpg, .jpeg, .png, and .gif)","*.jpg *.jpeg *.png *.gif")])
             self.OpenPhotoDir(AlbumView.PRIVATE, username)
 
         # For all the selected files, copy them into the database
