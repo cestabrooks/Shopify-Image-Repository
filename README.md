@@ -15,9 +15,9 @@ This project was built with:
 * [Pillow](https://python-pillow.org/)
 	
 ## Setup
-The `main.py` will attempt to automatically install the necessary libraries itself using the package manager [pip](https://pip.pypa.io/en/stable/).
+When the `main.py` file is run, it will attempt to automatically install the necessary libraries itself using the package manager [pip](https://pip.pypa.io/en/stable/).
 
-If errors are encoutered, you can attempt to install it yourself using the following command.
+If errors are encoutered, you can attempt to install it manually using the following command.
 ```bash
 pip install pillow
 ```
