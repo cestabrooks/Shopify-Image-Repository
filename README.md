@@ -16,16 +16,18 @@ Currently, this project supports the following image formats: `.jpg`, `.jpeg`, `
 
 **Note: Any animated `.gif` files that are uploaded to the repository will only display a preview of the first frame. To view the entire animation in sequence, you can download the file and open it elsewhere.*
 	
+	
 ## Setup
-Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` file inside of it. When `main.py` is run, it will create numerous folders to organize user data within its current working directory. Thus, it is important to place it in a brand new folder where it is free to run and create its own file system.
+Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` file inside of it. When it is run, it will create numerous folders to organize user data within its current working directory. Thus, it is important to place the file in a brand new folder where it is free to create its own file system.
 
 
-When the `main.py` file is run, it will attempt to automatically install the necessary libraries itself using the package manager [pip](https://pip.pypa.io/en/stable/).
+When `main.py` is run, it will attempt to automatically install the necessary libraries itself using the package manager [pip](https://pip.pypa.io/en/stable/).
 
 If errors are encoutered, you can attempt to manually install the required [Pillow](https://python-pillow.org/) library using the following command.
 ```bash
 pip install pillow
 ```
+
 
 ## Running the Project
 Navigate to
@@ -33,6 +35,7 @@ Navigate to
 ```bash
 pytho
 ```
+
 
 ## Built With
 This project uses:
