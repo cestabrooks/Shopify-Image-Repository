@@ -10,6 +10,10 @@ Created for the Summer 2021 Shopify Developer Intern Challenge
 
 ## General Info
 This project is a simple image repository that allows users to upload, download, and delete images. Every user must create an account with a username and password. Once they are logged in, they can interact with photos in their personal private libaray or the global public libary (which everyone can access).
+
+Currently, this project supports the following image formats: `.jpg`, `.jpeg`, `.png`, and `.gif`*.
+
+*Note: Any animated `.gif` file that is uploaded to the repository will only display a preview of the first frame. To view the entire animation in sequence, you can download the file and open it.
 	
 ## Setup
 Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` file inside of it. When `main.py` is run, it will create numerous folders to organize data within its current working directory. Thus, it is important to place it in a brand new folder where it is free to run and create its own file system.
@@ -23,9 +27,11 @@ pip install pillow
 ```
 
 ## Running the Project
+Navigate to
 
 ```bash
 pytho
+```
 
 ## Built With
 This project uses:
