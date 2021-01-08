@@ -8,7 +8,7 @@
 #
 
 
-# Importing reuired libraries
+# Importing required libraries
 import sys
 import enum
 import shutil
