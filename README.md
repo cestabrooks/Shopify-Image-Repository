@@ -12,6 +12,8 @@ Created for the Summer 2021 Shopify Developer Intern Challenge
 This project is a simple image repository that allows users to upload, download, and delete images. Every user must create an account with a username and password. Once they are logged in, they can interact with photos in their personal private libaray or the global public libary (which everyone can access).
 	
 ## Setup
+Create a folder such as `Image Repository` somewhere on your computer and run the `main.py` file from it. The file will create a series of folders to store all of the images. Thus, it is important to place the Python file inside of a top-level folder where it is free to run and create its own directories.
+
 When the `main.py` file is run, it will attempt to automatically install the necessary libraries itself using the package manager [pip](https://pip.pypa.io/en/stable/).
 
 If errors are encoutered, you can attempt to manually install the required [Pillow](https://python-pillow.org/) library using the following command.
@@ -19,8 +21,10 @@ If errors are encoutered, you can attempt to manually install the required [Pill
 pip install pillow
 ```
 
-## Runinning the Project
-yep
+## Running the Project
+
+```bash
+pytho
 
 ## Built With
 This project uses:
