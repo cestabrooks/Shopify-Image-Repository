@@ -154,7 +154,7 @@ class ImgRepGUI:
         self.menuBar.add_cascade(label="View", menu=self.viewMenu)
 
         # Setting up "Help" menu button with options to see documentation to get help and to get info about author
-        self.helpMenu.add_command(label="Get Help", command=lambda:webbrowser.open("https://github.com/cestabrooks/Shopify-Image-Repository/blob/main/README.md"))
+        self.helpMenu.add_command(label="Get Help", command=lambda:webbrowser.open("https://github.com/cestabrooks/Shopify-Image-Repository/wiki"))
         self.helpMenu.add_separator()
         self.helpMenu.add_command(label="About", command=lambda:webbrowser.open("https://github.com/cestabrooks"))
         self.menuBar.add_cascade(label="Help", menu=self.helpMenu)
