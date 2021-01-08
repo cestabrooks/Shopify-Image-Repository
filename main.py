@@ -149,8 +149,8 @@ class ImgRepGUI:
         self.menuBar.add_cascade(label="Edit", menu=self.editMenu)
 
         # Setting up "View" menu button with options to view public or private photos
-        self.viewMenu.add_command(label="View Your Photos", command=lambda:self.SwitchFrame(self.HomeFrame(AlbumView.PRIVATE)))
-        self.viewMenu.add_command(label="View Public Photos", command=lambda:self.SwitchFrame(self.HomeFrame(AlbumView.PUBLIC)))
+        self.viewMenu.add_command(label="Private Photos", command=lambda:self.SwitchFrame(self.HomeFrame(AlbumView.PRIVATE)))
+        self.viewMenu.add_command(label="Public Photos", command=lambda:self.SwitchFrame(self.HomeFrame(AlbumView.PUBLIC)))
         self.menuBar.add_cascade(label="View", menu=self.viewMenu)
 
         # Setting up "Help" menu button with options to see documentation to get help and to get info about author
