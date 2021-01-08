@@ -18,7 +18,8 @@ Currently, this project supports the following image formats: `.jpg`, `.jpeg`, `
 	
 	
 ## Setup
-Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` file inside of it. 
+Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` file inside of it.
+
 *When it is run, it will create numerous folders to organize user data within its current working directory. Thus, it is important to place the file in a brand new folder where it is free to create its own file system.*
 
 
