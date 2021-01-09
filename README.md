@@ -39,7 +39,7 @@ pip install pillow
 ```
 
 ### Macintosh
-Although it is recommended to use Window 10 as that was the environment used for testing, the steps below can be followed to manually install [Pillow](https://python-pillow.org/) on Mac OS X.
+Although it is recommended to use Window 10 as that was the environment used for testing, the steps below can be followed to install [Pillow](https://python-pillow.org/) on Mac OS X.
 
 First, enter the following into the terminal:
 ```bash
