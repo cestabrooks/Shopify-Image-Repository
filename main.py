@@ -39,12 +39,6 @@ except:
     if platform.system() == 'Darwin':
         os.system("sudo easy_install pip")
         os.system("pip3 install pillow")
-        
-        # Although os.system() is supposed to wait for the shell to terminate, the shell command above ("pip3 install pillow") returns an exit signal prematurely
-        # before its actually done running. This causes issues when trying to import the PIL library again below since 'pillow' is actually not yet finished
-        # installing. Therefore, we need to restart the script again to ensure 'pillow' is finished installing.
-        os.execv(sys.executable, ['python3'] + sys.argv)
-        
     elif platform.system() == 'Windows':
         os.system("pip install pillow")
 
