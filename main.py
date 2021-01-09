@@ -29,7 +29,6 @@ except:
 
 # Trying to import pillow library (needed to display images)
 try:
-    #import Image
     from PIL import Image, ImageTk
 # If unsuccesful, try to install pillow
 except:
@@ -39,7 +38,7 @@ except:
     # Installation commands depending on the operating system (Note: "Darwin" means Mac OSX)
     if platform.system() == 'Darwin':
         os.system("sudo easy_install pip")
-        os.system("pip install pillow")
+        os.system("pip3 install pillow")
     elif platform.system() == 'Windows':
         os.system("pip install pillow")
 
