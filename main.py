@@ -5,7 +5,6 @@
 #
 # Version History:
 #   v1.0    Janurary 7, 2020
-#
 
 
 # Importing required libraries
