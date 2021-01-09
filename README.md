@@ -68,7 +68,7 @@ First, try entering the following into the terminal:
 python main.py
 ```
 
-If the above command fails, your computer may be defaulting to Python 2 (which is automatically installed with OS X) as opposed to Python 3. Therefore, try again with this one instead.
+If the above command fails, your computer may be defaulting to Python 2 (which is automatically installed with OS X) as opposed to Python 3.  To avoid this, enter the command below instead:
 ```bash
 python3 main.py
 ```
