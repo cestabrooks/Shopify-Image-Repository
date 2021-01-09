@@ -25,7 +25,7 @@ Currently, this project supports the following image formats: `.jpg`, `.jpeg`, `
 ## Setup
 If you do not have it already, download the latest version of Python [here](https://www.python.org/downloads/). You must have at least Python 3.9.0 installed to ensure the application runs as expected.
 
-Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` inside of it. *When the application is run, it will create numerous folders to organize user data within its current working directory. Thus, it is important to place the file in a brand new folder where it is free to setup its own file system.*
+Create a folder such as `Image Repository` somewhere on your computer and place the `main.py` inside of it. *When the application is run, it will create numerous folders to organize user data within its current working directory. Thus, it is important to place the file in a brand new folder where it is free to set up its own file system.*
 
 
 When `main.py` is run, it will attempt to install the necessary libraries itself using the package manager [pip](https://pip.pypa.io/en/stable/). If errors are encountered, you can try to manually install the required [Pillow](https://python-pillow.org/) library using the commands below.
