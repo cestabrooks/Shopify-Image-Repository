@@ -31,7 +31,7 @@ When `main.py` is run, it will attempt to install the necessary libraries itself
 pip install pillow
 ```
 
-If you are using Mac OS X and errors still arise, your computer may be using Python 2 (which is automatically installed with OS X) as opposed to Python 3. Try installing [Pillow](https://python-pillow.org/) with the following command:
+If you are using Mac OS X and errors still arise, your computer may be using Python 2 (which is automatically installed with OS X) as opposed to Python 3. Instead, try installing [Pillow](https://python-pillow.org/) with the following command:
 ```bash
 pip3 install pillow
 ```
